@@ -7,8 +7,11 @@ Public Map View: Users can view and interact with the accident data on the map.
 Admin Page: Authorized users (admins) can add new accidents through a password-protected form.
 
 Automatic Updates: When a new accident is added, the system generate a unique Id for the new accident and the map is automatically updated to display the new data without restarting the application. The new accident is also stored in the database.
-
+##
+**Map Screenshots**
 ![Map Screenshots](images/image.png)
+
+**Admin Panel**
 ![Admin Panel](images/image-1.png)
 ---
 ## 📂 Project Structure
@@ -37,6 +40,7 @@ Automatic Updates: When a new accident is added, the system generate a unique Id
 ├── .gitignore 
 |
 └── **README.md**  
+
 
  **Dataset:**
 **Dataset Source:** US Accidents Dataset (2016 - 2023)

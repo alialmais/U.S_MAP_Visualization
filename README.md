@@ -59,9 +59,9 @@ Automatic Updates: When a new accident is added, the system generate a unique Id
 
 **Dataset Source:** US Accidents Dataset (2016 - 2023)
 
-**Dataset Information** 
+*Dataset Information:*
 
-**The original dataset contains 7.7 million accident records collected from 2016 to 2023 across 49 states in the USA. For this project, only accidents from 2023 were used. Additionally, admins can manually add new accident records, which will be stored in MySQL and instantly reflected on the map.**
+The original dataset contains 7.7 million accident records collected from 2016 to 2023 across 49 states in the USA. For this project, only accidents from 2023 were used. Additionally, admins can manually add new accident records, which will be stored in MySQL and instantly reflected on the map.
 ---
  **Set up MySQL database:**  
 - Import `schema.sql` into MySQL.

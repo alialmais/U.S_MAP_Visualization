@@ -23,36 +23,41 @@ Automatic Updates: When a new accident is added, the system generate a unique Id
 </p>
 
 ---
-## 📂 Project Structure
+📂 Project Structure
 
-**📁 US_MAP_VISUALIZATION/** 
+📁 US_MAP_VISUALIZATION/
 
-├── **Main_map.py** → Main script that loads accident data from MySQL and generates an interactive map using Folium
-│
-├── **config.py** → Stores configuration settings (used to store password) 
-│
-├── **data_cleaning.ipynb** 
-│
-├── **📁 templates/** → Stores HTML templates for the web interface.  
-│   ├── **view_map.html** → Displays the interactive accident map.  
-│   ├── **add_accident.html** → Admin panel for adding new accidents (password protected).  
-│
-├── **📁 Databases/database/** → Stores database schema  
-│   ├── **schema.sql**
-│
-├── **📁 Datasets/** → Contains raw and cleaned accident datasets 
-│   ├── **cleaned_US_Accidents_2023.csv** → Preprocessed dataset used in MySQL
-│   ├── **US_Accidents_March23.csv** 
-│
-├── **📁 images/** → Stores images used in the README.md file 
-│
-├── .gitignore 
-|
-└── **README.md**  
+📄 Main_map.py → Main script that loads accident data from MySQL and generates an interactive map using Folium.
+
+📄 config.py → used to store passwords securely
+
+📄 data_cleaning.ipynb → Jupyter Notebook for preprocessing accident data before inserting it into MySQL.
+
+📁 templates/ → Stores HTML templates for the web interface.
+
+📄 view_map.html → Displays the interactive accident map.
+
+📄 add_accident.html → Admin panel for adding new accidents (password protected).
+
+📁 Databases/database/ → Stores database schema.
+
+📄 schema.sql 
+
+📁 Datasets/ → Contains raw and cleaned accident datasets.
+
+📄 cleaned_US_Accidents_2023.csv →
+📄 US_Accidents_March23.csv → 
+
+📁 images/ → Stores images used in the README.md file.
+
+📄 .gitignore 
+
+📄 README.md 
 
 
- **Dataset:**
+ # Dataset:
 **Dataset Source:** US Accidents Dataset (2016 - 2023)
+
 **Dataset Information**
 The original dataset contains 7.7 million accident records collected from 2016 to 2023 across 49 states in the USA. For this project, only accidents from 2023 were used. Additionally, admins can manually add new accident records, which will be stored in MySQL and instantly reflected on the map.
 

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+
+Datasets/
+*.csv
+
+config.py
+
+templates/view_map.html

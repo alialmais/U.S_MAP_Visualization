@@ -8,6 +8,11 @@ Admin Page: Authorized users (admins) can add new accidents through a password-p
 
 Automatic Updates: When a new accident is added, the system generate a unique Id for the new accident and the map is automatically updated to display the new data without restarting the application. The new accident is also stored in the database.
 ##
+<p align="center"><strong>U.S Map</strong></p>
+<p align="center">
+  <img src="images/U.S_map.png" alt="U.S Map">
+
+##
 <p align="center"><strong>Map Screenshots</strong></p>
 
 <p align="center">
